@@ -4,12 +4,13 @@ import video2 from "../assets/video2.mp4";
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-         Clean clean
-        <span className="bg-gradient-to-r from-white-500 to-beige-800 text-transparent bg-clip-text">
+    <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+       Clean clean
+       <span className="bg-gradient-to-r from-white to-white-800 text-white bg-clip-text">
           {" "}
           for workers
-        </span>
+       </span>
+    
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
         Empower your creativity and bring your VR app ideas to life with our
